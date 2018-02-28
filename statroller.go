@@ -6,6 +6,12 @@ import (
 	"time"
 )
 
+/*
+type stats struct {
+	stats [6]int
+}
+*/
+
 func getChoice() {
 	var choice, dice int
 	fmt.Println("\n1. Standard\n2. Classic\n3. Heroic\nChoose a roll type: ")
